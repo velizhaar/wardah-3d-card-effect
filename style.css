@@ -84,8 +84,10 @@ body {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   cursor: pointer;
-  
   color: white;
+}
+.shades button:hover {
+  border-width: 2px;
 }
 button.satu {
   background: #E8CAAF;
@@ -121,4 +123,8 @@ button.lima {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+}
+.purchase button:hover {
+  background: #88dada;
+  color: rgba(255, 255, 255, 0.89);
 }

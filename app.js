@@ -19,7 +19,7 @@ container.addEventListener("mousemove", (e) => {
 container.addEventListener("mouseenter", (e) => {
   card.style.transition = "none";
   //Popout
-  title.style.transform = "translateZ(150px)";
+  title.style.transform = "translateZ(175px)";
   subtitle.style.transform = "translateZ(150px)";
   powder.style.transform = "translateZ(200px) rotateZ(-45deg)";
   description.style.transform = "translateZ(125px)";
